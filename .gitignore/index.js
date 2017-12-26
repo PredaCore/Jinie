@@ -57,8 +57,8 @@ __bonjour__
     }
     else if(message.content === '!richEmbed3') {
       const embed = new Discord.RichEmbed();
-      embed.setTitle('Rencontre a la Taverne')
-      .setAuthor('Quete H0001', 'http://data.twinoid.com/proxy/www.dinorpg.com/favicon.ico')
+      embed.setTitle('Titre')
+      .setAuthor('Rencontre a la Taverne', 'https://i.imgur.com/lm8s41J.png')
       .setColor(3447003)
       .setFooter('Pied de page - 2048','http://i.imgur.com/w1vhFSR.png')
       .setImage('http://i.imgur.com/yVpYmuV.png')
@@ -66,7 +66,7 @@ __bonjour__
       .setTimestamp()
       .setURL('http://google.com');
 
-      embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
+      embed.addField('*Alors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere Un barde monte sur une table et commence à jouer une petite chanson Malheureusement sa chanson est terrible et nique l\'ambiance du bar.*')
       .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
       .addBlankField(true)
       .addField('Tu décides de faire quelque chose à ce sujet !', 'Le **Convaincre de Partir **, Le **Provoquer en Duel**');
