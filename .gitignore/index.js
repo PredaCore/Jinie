@@ -65,8 +65,7 @@ __bonjour__
       .setImage('http://i.imgur.com/yVpYmuV.png')
       .setThumbnail('https://i.imgur.com/p2qNFag.png');
       
-      embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
-      .addBlankField(true)
+      embed.addBlankField(true)
       .addField('Tu décides de faire quelque chose à ce sujet !', 'Le Convaincre de Partir');
       
       message.channel.send({embed: embed});
