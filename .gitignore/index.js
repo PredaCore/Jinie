@@ -57,7 +57,7 @@ __bonjour__
     }
     else if(message.content === '!H0001') {
       const embed = new Discord.RichEmbed();
-      embed.setTitle('test')
+      embed.setTitle('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. Un barde monte sur une table et commence à jouer une petite chanson… Malheureusement sa chanson est terrible et nique l’ambiance du bar.```')
       .setAuthor('', '')
       .setColor(3066993)
       .setDescription('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. Un barde monte sur une table et commence à jouer une petite chanson… Malheureusement sa chanson est terrible et nique l’ambiance du bar.```')
