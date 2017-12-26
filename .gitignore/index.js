@@ -59,16 +59,13 @@ __bonjour__
       const embed = new Discord.RichEmbed();
       embed.setTitle('Mon titre - 256 caractères')
       .setAuthor('', '')
-      .setColor(3447003)
+      .setColor(3066993)
       .setDescription('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. Un barde monte sur une table et commence à jouer une petite chanson… Malheureusement sa chanson est terrible et nique l’ambiance du bar.```')
       .setFooter('','')
       .setImage('http://i.imgur.com/yVpYmuV.png')
-      .setThumbnail('https://i.imgur.com/p2qNFag.png')
-      .setTimestamp()
-      .setURL('http://google.com');
+      .setThumbnail('https://i.imgur.com/p2qNFag.png');
       
       embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
-      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
       .addBlankField(true)
       .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***');
       
