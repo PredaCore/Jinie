@@ -71,7 +71,6 @@ __bonjour__
       
       message.channel.send({embed: embed});
     }
-    }
   }
 });
 
