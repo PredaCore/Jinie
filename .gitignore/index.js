@@ -60,7 +60,7 @@ __bonjour__
       embed.setTitle('Rencontre a la Taverne', 'https://i.imgur.com/lm8s41J.png')
       .setAuthor('Rencontre a la Taverne', 'https://i.imgur.com/lm8s41J.png')
       .setColor(3447003)
-      .setDescription('*Alors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere Un barde monte sur une table et commence à jouer une petite chanson Malheureusement sa chanson est terrible et nique l\'ambiance du bar.*')
+      .setDescription('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. Un barde monte sur une table et commence à jouer une petite chanson… Malheureusement sa chanson est terrible et nique l’ambiance du bar.```')
       .setFooter('Pied de page - 2048','http://i.imgur.com/w1vhFSR.png')
       .setImage('http://i.imgur.com/yVpYmuV.png')
       .setThumbnail('https://i.imgur.com/p2qNFag.png')
