@@ -57,7 +57,7 @@ __bonjour__
     }
     else if(message.content === '!H0001') {
       const embed = new Discord.RichEmbed();
-      embed.setTitle('Mon titre - 256 caractères')
+      embed.setTitle('')
       .setAuthor('', '')
       .setColor(3066993)
       .setDescription('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. Un barde monte sur une table et commence à jouer une petite chanson… Malheureusement sa chanson est terrible et nique l’ambiance du bar.```')
@@ -67,7 +67,7 @@ __bonjour__
       
       embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
       .addBlankField(true)
-      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***');
+      .addField('Tu décides de faire quelque chose à ce sujet !', 'Le Convaincre de Partir', 'Le Convaincre de Partir');
       
       message.channel.send({embed: embed});
     }
