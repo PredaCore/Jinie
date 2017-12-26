@@ -67,10 +67,9 @@ __bonjour__
       .setTimestamp()
       .setURL('http://google.com');
 
-      embed.addField('test')
-      .addBlankField(true)
-      .addField('Tu décides de faire quelque chose à ce sujet !', 'Le **Convaincre de Partir **')
-      .addField('Le **Provoquer en Duel**');
+      embed.addBlankField(true)
+      .addField('Tu décides de faire quelque chose à ce sujet !', '-Le **Convaincre de Partir **')
+      .addField('', '-Le **Provoquer en Duel**');
       
       message.channel.send({embed: embed});
     }
