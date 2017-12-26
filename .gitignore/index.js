@@ -71,14 +71,14 @@ __bonjour__
       
       message.channel.send({embed: embed});
     }
+    }
+  }
+});
         }
     else if(message.content === '!H0002') {
       message.channel.send({embed: {
         color: 3066993,
         description: '```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. Un barde monte sur une table et commence à jouer une petite chanson… Malheureusement sa chanson est terrible et nique l’ambiance du bar.```'
       }});
-    }
-  }
-});
 
 bot.login("Mzk0NDc2MjQzOTc5OTkzMDg5.DSFzbg.wm0qD6l8YM5t5bFT2nKQpnHg1zw");
