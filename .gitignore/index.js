@@ -65,7 +65,8 @@ __bonjour__
       .setImage('http://i.imgur.com/yVpYmuV.png')
       .setThumbnail('https://i.imgur.com/p2qNFag.png');
       
-      embed.addBlankField(true)
+      embed.addField('', '')
+      .addBlankField(true)
       .addField('Tu décides de faire quelque chose à ce sujet !', 'Le Convaincre de Partir');
       
       message.channel.send({embed: embed});
