@@ -5,7 +5,7 @@ var bot = new Discord.Client();
 const PREFIX = "!";
 
 bot.on('ready', function() {
-    bot.user.setGame("Race : Elfe");
+    bot.user.setGame("Race : Orc");
     console.log("le bot a bien ete connecte");
 });
 
@@ -77,4 +77,4 @@ __bonjour__
   }
 });
 
-bot.login("Mzk0NDc2MjQzOTc5OTkzMDg5.DSVNPQ.hCL2M-2EsXgc3dfFtunGTO2FbmQ");
+bot.login("Mzk1NjA4NjQ2MzI0ODQ2NTky.DSVW3A.Zk2nKQZNoykSUqlVQxPcnZ91cmQ");
