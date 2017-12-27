@@ -64,7 +64,7 @@ __bonjour__
       
       embed.addField('Le Convaincre de Partir', '!0044')
       .addField('Le Provoquer en Duel', '!0045');
-      
+    
       message.channel.send({embed: embed});
     }
   }
