@@ -9,26 +9,16 @@ bot.on('ready', function() {
     console.log("le bot a bien ete connecte");
 });
 
-bot.on('message', message => {
-  if(message.content[0] === PREFIX) {
-    if(message.content === '!markdown') {
-      message.channel.send(
-`Le **Markdown**, c'est la *vie* ! ***Discord***
-      
-~~bonjour~~
-__bonjour__
-`);
-      message.channel.send("``code``");
     }
     else if(message.content === '!richEmbed1') {
       message.channel.send({embed: {
-        color: 3447003,
+        color: 3066993,
         description: 'bonjour le monde!'
       }});
     }
     else if(message.content === '!richEmbed2') {
       message.channel.send({embed: {
-        color: 3447003,
+        color: 3066993,
         author: {
           name: bot.user.username,
           icon_url: bot.user.avatarURL
