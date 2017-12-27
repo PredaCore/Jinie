@@ -55,19 +55,22 @@ __bonjour__
         }
       }});
     }
-    else if(message.content === '!H0001') {
+    else if(message.content === '!richEmbed3') {
       const embed = new Discord.RichEmbed();
-      embed.setTitle('test')
-      .setAuthor('', '')
+      embed.setTitle('Mon titre - 256 caractères')
+      .setAuthor('Nom', 'https://i.imgur.com/lm8s41J.png')
       .setColor(3066993)
       .setDescription('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. Un barde monte sur une table et commence à jouer une petite chanson… Malheureusement sa chanson est terrible et nique l’ambiance du bar.```')
-      .setFooter('','')
+      .setFooter('Pied de page - 2048','http://i.imgur.com/w1vhFSR.png')
       .setImage('http://i.imgur.com/yVpYmuV.png')
-      .setThumbnail('https://i.imgur.com/p2qNFag.png');
+      .setThumbnail('https://i.imgur.com/p2qNFag.png')
+      .setTimestamp()
+      .setURL('http://google.com');
       
-      embed.addField('Tu décides de faire quelque chose à ce sujet !', 't')
+      embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
+      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
       .addBlankField(true)
-      .addField('Tu décides de faire quelque chose à ce sujet !', 'Le Convaincre de Partir');
+      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***');
       
       message.channel.send({embed: embed});
     }
