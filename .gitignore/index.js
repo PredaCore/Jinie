@@ -55,7 +55,7 @@ __bonjour__
         }
       }});
     }
-    else if(message.content === '!richEmbed3') {
+    else if(message.content === '!test') {
       const embed = new Discord.RichEmbed();
       embed.setTitle('Mon titre - 256 caractères')
       .setAuthor('Nom', 'https://i.imgur.com/lm8s41J.png')
