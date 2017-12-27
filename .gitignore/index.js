@@ -8,12 +8,6 @@ bot.on('ready', function() {
     bot.user.setGame("Race : Humain");
     console.log("le bot a bien ete connecte");
 });
-bot.on('message', function(message) {
-
-        if(message.content === 'wolfayeur') {
-            message.reply('<3')
-        }
-    });
 bot.on('message', message => {
   if(message.content[0] === PREFIX) {
     if(message.content === '!markdown') {
@@ -27,13 +21,13 @@ __bonjour__
     }
     else if(message.content === '!richEmbed1') {
       message.channel.send({embed: {
-        color: 3447003,
+        color: 3066993,
         description: 'bonjour le monde!'
       }});
     }
     else if(message.content === '!richEmbed2') {
       message.channel.send({embed: {
-        color: 3447003,
+        color: 3066993,
         author: {
           name: bot.user.username,
           icon_url: bot.user.avatarURL
@@ -61,6 +55,28 @@ __bonjour__
       }});
     }
     else if(message.content === '!richEmbed3') {
+      const embed = new Discord.RichEmbed();
+      embed.setTitle('Mon titre - 256 caractères')
+      .setAuthor('Nom', 'https://i.imgur.com/lm8s41J.png')
+      .setColor(3066993)
+      .setDescription('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. Un barde monte sur une table et commence à jouer une petite chanson… Malheureusement sa chanson est terrible et nique l’ambiance du bar.```')
+      .setFooter('Pied de page - 2048','http://i.imgur.com/w1vhFSR.png')
+      .setImage('http://i.imgur.com/yVpYmuV.png')
+      .setThumbnail('https://i.imgur.com/p2qNFag.png')
+      .setTimestamp()
+      .setURL('http://google.com');
+      
+      embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
+      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
+      .addBlankField(true)
+      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***');
+      
+      message.channel.send({embed: embed});
+    }
+  }
+});
+    }
+    else if(message.content === '!test2') {
       const embed = new Discord.RichEmbed();
       embed.setTitle('Mon titre - 256 caractères')
       .setAuthor('Nom', 'https://i.imgur.com/lm8s41J.png')
