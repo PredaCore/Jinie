@@ -49,6 +49,35 @@ __bonjour__
         }
       }});
     }
+        else if(message.content === '!V042') {
+      message.channel.send({embed: {
+        color: 3066993,
+        author: {
+          name: bot.user.username,
+          icon_url: bot.user.avatarURL
+        },
+        title: 'Titre',
+        url: 'http://wolfayeur.fr',
+        description: 'bonjour le monde!',
+        fields: [{
+        name:'Du texte simple',
+          value: 'Votre texte ici'
+        },
+                 {
+          name:'Ajout d\'une Url',
+          value: 'Voila l\'adresse de [Google](http://google.com).' 
+                 },
+                 {
+          name:'Markdown',
+          value: 'Le **Markdown**, c\'est la *vie* ! ***Discord***'  
+        }],
+        timestamps: new Date(),
+        footer: {
+          icon_url: bot.user.avatarURL,
+          text: 'Par Wolfayeur'
+        }
+      }});
+    }
     else if(message.content === '!V040') {
       const embed = new Discord.RichEmbed();
       embed.setColor(3066993)
