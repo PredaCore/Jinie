@@ -60,9 +60,7 @@ __bonjour__
       embed.setColor(3066993)
       .setDescription('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. \n\nUn barde monte sur une table et commence à jouer une petite chanson… \n\nMalheureusement sa chanson est terrible et nique l’ambiance du bar.```')
       .setImage('http://i.imgur.com/yVpYmuV.png')
-      .setThumbnail('https://img15.hostingpics.net/pics/691096aqwzsxe.png')
-      .setTimestamp()
-      .setURL('http://google.com');
+      .setThumbnail('https://img15.hostingpics.net/pics/691096aqwzsxe.png');
       
       embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
       .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
