@@ -56,18 +56,10 @@ __bonjour__
           name: bot.user.username,
           icon_url: bot.user.avatarURL
         },
-        description: '```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. \n\nUn barde monte sur une table et commence à jouer une petite chanson… \n\nMalheureusement sa chanson est terrible et nique l’ambiance du bar.```',
+        description: '```\nTu saisie la lutte du propriétaire et tu le provoque dans un duel musical ! \n\nTu commences juste à jouer de la lutte quand tu réalises que t’es encore pire que le barde… \n\nLe Barde te sur joue facilement et te fait signe de baisser ta lutte… \n\nLe Bar entier se fout de ta gueule… c’est très embarrassant…```',
         fields: [{
         name:'Consequence',
-          value: 'Votre texte ici'
-        },
-                 {
-          name:'Ajout d\'une Url',
-          value: 'Voila l\'adresse de [Google](http://google.com).' 
-                 },
-                 {
-          name:'Markdown',
-          value: 'Le **Markdown**, c\'est la *vie* ! ***Discord***'  
+          value: '-5 en Charisme !'
         }],
         timestamps: new Date(),
         footer: {
