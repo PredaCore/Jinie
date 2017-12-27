@@ -62,10 +62,8 @@ __bonjour__
       .setImage('http://i.imgur.com/yVpYmuV.png')
       .setThumbnail('https://img15.hostingpics.net/pics/705165aqwzsxe.png');
       
-      embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
-      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
-      .addBlankField(true)
-      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***');
+      embed.addField('Le Convaincre de Partir', '!0044')
+      .addField('Le Provoquer en Duel', '!0045');
       
       message.channel.send({embed: embed});
     }
