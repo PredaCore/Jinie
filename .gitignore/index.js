@@ -58,9 +58,9 @@ __bonjour__
         },
         title: 'Titre',
         url: 'http://wolfayeur.fr',
-        description: '```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. \n\nUn barde monte sur une table et commence à jouer une petite chanson… \n\nMalheureusement sa chanson est terrible et nique l’ambiance du bar.```',
+        description: 'texte',
         fields: [{
-        name:'Consequence: ',
+        name:'Consequence',
           value: 'Votre texte ici'
         },
                  {
