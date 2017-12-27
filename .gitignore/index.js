@@ -52,10 +52,6 @@ __bonjour__
         else if(message.content === '!V042') {
       message.channel.send({embed: {
         color: 3066993,
-        author: {
-          name: bot.user.username,
-          icon_url: bot.user.avatarURL
-        },
         description: '```\nTu saisie la lutte du propriétaire et tu le provoque dans un duel musical ! \n\nTu commences juste à jouer de la lutte quand tu réalises que t’es encore pire que le barde… \n\nLe Barde te sur joue facilement et te fait signe de baisser ta lutte… \n\nLe Bar entier se fout de ta gueule… \n\nc’est très embarrassant…```',
         fields: [{
         name:'Consequence',
