@@ -57,21 +57,13 @@ __bonjour__
     }
     else if(message.content === '!richEmbed3') {
       const embed = new Discord.RichEmbed();
-      embed.setTitle('Mon titre - 256 caractères')
-      .setAuthor('Nom', 'https://i.imgur.com/lm8s41J.png')
-      .setColor(3066993)
+      embed.setColor(3066993)
       .setDescription('```\nAlors que vous passez de longues heures accoudées au comptoir de la taverne de Marbrume a siroté une biere. \n\nUn barde monte sur une table et commence à jouer une petite chanson… \n\nMalheureusement sa chanson est terrible et nique l’ambiance du bar.```')
-      .setFooter('Pied de page - 2048','http://i.imgur.com/w1vhFSR.png')
-      .setImage('http://i.imgur.com/yVpYmuV.png')
-      .setThumbnail('https://img15.hostingpics.net/pics/166381aqwzsxe.png')
-      .setTimestamp()
-      .setURL('http://google.com');
+      .setThumbnail('https://img15.hostingpics.net/pics/166381aqwzsxe.png');
       
-      embed.addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
-      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***')
-      .addBlankField(true)
-      .addField('Markdown', 'Le **Markdown**, c\'est la *vie* ! ***Discord***');
-      
+      embed.addField('Le Convaincre de Partir', '!0044')
+      .addField('Le Provoquer en Duel', '!0045');
+    
       message.channel.send({embed: embed});
     }
   }
